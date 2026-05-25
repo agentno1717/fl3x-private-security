@@ -11,7 +11,7 @@ function getStoredUsers(): User[] {
         id: 'user-1',
         name: 'Jordan Blake',
         email: 'jordan@fl3xsecurity.com',
-        avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80',
+        avatar: 'https://images.unsplash.com/photo-1542317854-0c6a9b5f3b85?auto=format&fit=crop&w=400&q=80',
         role: 'Operations Lead',
         bio: 'Building secure social workflows for front-line teams.'
       }
