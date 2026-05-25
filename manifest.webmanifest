@@ -1,0 +1,16 @@
+{
+  "name": "Fl3xPrivateSecurity",
+  "short_name": "Fl3xSecurity",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05060c",
+  "theme_color": "#0b1121",
+  "description": "Secure team social network for iOS, Android, and desktop.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
