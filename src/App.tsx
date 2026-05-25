@@ -4,6 +4,9 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Feed from './pages/Feed';
 import Chat from './pages/Chat';
+import Work from './pages/Work';
+import Help from './pages/Help';
+import Donate from './pages/Donate';
 import Profile from './pages/Profile';
 import Notifications from './pages/Notifications';
 import Admin from './pages/Admin';
@@ -53,6 +56,15 @@ function App() {
           <NavLink to="/chat" className={({ isActive }) => (isActive ? 'active' : '')}>
             Chat
           </NavLink>
+          <NavLink to="/work" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Work
+          </NavLink>
+          <NavLink to="/help" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Help
+          </NavLink>
+          <NavLink to="/donate" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Donate
+          </NavLink>
           {user ? (
             <>
               <NavLink to="/profile" className={({ isActive }) => (isActive ? 'active' : '')}>
@@ -83,6 +95,9 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/help" element={<Help />} />
+          <Route path="/donate" element={<Donate />} />
           <Route path="/profile" element={<RequireAuth><Profile /></RequireAuth>} />
           <Route path="/notifications" element={<RequireAuth><Notifications /></RequireAuth>} />
           <Route path="/admin" element={<Admin />} />

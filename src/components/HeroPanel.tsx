@@ -10,6 +10,8 @@ export default function HeroPanel() {
         <div className="hero-actions">
           <Link className="button-primary" to="/signup">Start Free</Link>
           <Link className="button-secondary" to="/feed">Explore Feed</Link>
+          <Link className="button-secondary" to="/help">Help</Link>
+          <Link className="button-secondary" to="/donate">Donate</Link>
         </div>
       </div>
       <div className="hero-preview">

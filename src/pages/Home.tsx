@@ -5,12 +5,14 @@ import PwaInstallPrompt from '../components/PwaInstallPrompt';
 import QuickOpsPanel from '../components/QuickOpsPanel';
 import WelcomeModal from '../components/WelcomeModal';
 import AgentGallery from '../components/AgentGallery';
+import ThemePresets from '../components/ThemePresets';
 
 export default function Home() {
   return (
     <div className="dashboard-panel">
       <WelcomeModal />
       <HeroPanel />
+      <ThemePresets />
       <PwaInstallPrompt />
       <QuickOpsPanel />
       <LivePulse />
