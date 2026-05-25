@@ -6,6 +6,7 @@ import Feed from './pages/Feed';
 import Chat from './pages/Chat';
 import Profile from './pages/Profile';
 import Notifications from './pages/Notifications';
+import Admin from './pages/Admin';
 import NotificationBell from './components/NotificationBell';
 import ThemeToggle from './components/ThemeToggle';
 import { useAuth } from './contexts/AuthContext';
@@ -46,6 +47,9 @@ function App() {
           <NavLink to="/feed" className={({ isActive }) => (isActive ? 'active' : '')}>
             Feed
           </NavLink>
+          <NavLink to="/admin" className={({ isActive }) => (isActive ? 'active' : '')}>
+            Admin
+          </NavLink>
           <NavLink to="/chat" className={({ isActive }) => (isActive ? 'active' : '')}>
             Chat
           </NavLink>
@@ -81,6 +85,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/profile" element={<RequireAuth><Profile /></RequireAuth>} />
           <Route path="/notifications" element={<RequireAuth><Notifications /></RequireAuth>} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
