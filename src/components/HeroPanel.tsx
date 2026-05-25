@@ -14,7 +14,7 @@ export default function HeroPanel() {
       </div>
       <div className="hero-preview">
         <div className="preview-card">
-          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Security team" />
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Cyber ops" />
           <div className="preview-text">
             <h3>Live updates</h3>
             <p>Upload patrol photos, share training videos, and keep your squad coordinated in one sleek app.</p>

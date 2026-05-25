@@ -3,7 +3,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import AgentGallery from '../components/AgentGallery';
 
 export default function Admin() {
-  const { theme, toggleTheme, preset, setPreset } = useTheme() as any;
+  const { theme, toggleTheme, preset, setPreset } = useTheme();
 
   return (
     <div className="page-shell">

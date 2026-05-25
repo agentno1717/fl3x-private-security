@@ -4,6 +4,7 @@ import LivePulse from '../components/LivePulse';
 import PwaInstallPrompt from '../components/PwaInstallPrompt';
 import QuickOpsPanel from '../components/QuickOpsPanel';
 import WelcomeModal from '../components/WelcomeModal';
+import AgentGallery from '../components/AgentGallery';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <PwaInstallPrompt />
       <QuickOpsPanel />
       <LivePulse />
+      <AgentGallery />
 
       <section className="glass-card primary-panel info-grid">
         <div>
